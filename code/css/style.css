@@ -276,7 +276,7 @@ input:focus {
     #content-wrap {
         display: block;
     }
-    .best-result {
+    .header-result {
         display: none;
     }
     .content {
