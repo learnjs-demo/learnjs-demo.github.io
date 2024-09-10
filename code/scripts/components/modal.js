@@ -29,9 +29,9 @@ const createModal = () => {
 function closeOverlay(overlay = document.querySelector('.overlay')) {
     if (overlay) {
         overlay.style.animation = 'fadeOut ease-out 0.4s forwards';
-        document.body.style.overflowY = 'auto';
         overlay.addEventListener('animationend', () => {
             overlay.remove();
+            document.body.style.overflowY = 'auto';
         });
     }
 }
