@@ -23,7 +23,6 @@ body {
 	color: var(--font-color);
 	font: 400 17px 'Open Sans', Arial, sans-serif;
 	background-color: #ffcfc0;
-    scrollbar-gutter: stable;
 }
 img {
 	max-width: 100%;
