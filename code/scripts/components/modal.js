@@ -7,7 +7,9 @@ const createModal = () => {
     </div>`);
     const overlay = document.querySelector('.overlay');
     overlay.style.animation = 'fadeIn ease-out 0.4s forwards';
+    const scrollbar = window.innerWidth - document.documentElement.clientWidth;
 	document.body.style.overflowY = 'hidden';
+    document.body.style.width = `calc(100vw - ${scrollbar}px)`;
     document.querySelector('.modal').addEventListener('click', (e) => {
         e.stopPropagation();
     });
