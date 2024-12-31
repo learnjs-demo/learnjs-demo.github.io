@@ -6,6 +6,9 @@
 .sidebar {
     margin: 30px 0 50px;
 }
+.lesson a {
+    display: inline-block;
+}
 .lesson p {
     margin-bottom: 10px;
     line-height: 1.5;
